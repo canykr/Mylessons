@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-VeriTipleriVeDegiskenler", "01-VeriTipleriVeDegiskenler\01-VeriTipleriVeDegiskenler.csproj", "{2765FA0A-9BCB-4AA8-A813-CCFA36A17A0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2765FA0A-9BCB-4AA8-A813-CCFA36A17A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2765FA0A-9BCB-4AA8-A813-CCFA36A17A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2765FA0A-9BCB-4AA8-A813-CCFA36A17A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2765FA0A-9BCB-4AA8-A813-CCFA36A17A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C65053D5-8953-4FFB-9BD2-C8AB2CDF5916}
+	EndGlobalSection
+EndGlobal
