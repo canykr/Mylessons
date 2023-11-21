@@ -17,13 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_MantiksalOperatorlerveIf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-SwitchCaseKullanimi", "05-SwitchCaseKullanımı\05-SwitchCaseKullanimi.csproj", "{5128F3DF-6CF0-45DB-90E5-C76E66E5A9BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-TryCatchKullanimi", "06-TryCatchKullanimi\06-TryCatchKullanimi.csproj", "{7CD15738-917E-4126-98C5-7F01F52FEFBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-TryCatchKullanimi", "06-TryCatchKullanimi\06-TryCatchKullanimi.csproj", "{7CD15738-917E-4126-98C5-7F01F52FEFBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-ForDongusu", "07-ForDongusu\07-ForDongusu.csproj", "{9AEDEB59-EEA1-4D6D-A673-60F325B65C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-ForDongusu", "07-ForDongusu\07-ForDongusu.csproj", "{9AEDEB59-EEA1-4D6D-A673-60F325B65C21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-WhileDongusu", "08-WhileDongusu\08-WhileDongusu.csproj", "{3EC56554-7548-416A-919A-AA62C784DA21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-WhileDongusu", "08-WhileDongusu\08-WhileDongusu.csproj", "{3EC56554-7548-416A-919A-AA62C784DA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-DoWhiledongusu", "09-DoWhiledongusu\09-DoWhiledongusu.csproj", "{BA69000B-3031-4F30-BD30-8DAD8B9EAC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-DoWhiledongusu", "09-DoWhiledongusu\09-DoWhiledongusu.csproj", "{BA69000B-3031-4F30-BD30-8DAD8B9EAC55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ödev", "ödev\ödev.csproj", "{88280BB6-7843-4761-A773-0EF1CE7FD80E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notodevi", "Notodevi\Notodevi.csproj", "{CB8E5A20-346A-408B-A1B5-08A71C5E9820}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trafiklambasi", "Trafiklambasi\Trafiklambasi.csproj", "{5D5800C5-6D7D-4D09-A7F9-6AAB142B4F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesapmakinesi", "Hesapmakinesi\Hesapmakinesi.csproj", "{33729C54-7634-4F53-B8EF-716D501DDF1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{BA69000B-3031-4F30-BD30-8DAD8B9EAC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA69000B-3031-4F30-BD30-8DAD8B9EAC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA69000B-3031-4F30-BD30-8DAD8B9EAC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88280BB6-7843-4761-A773-0EF1CE7FD80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88280BB6-7843-4761-A773-0EF1CE7FD80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88280BB6-7843-4761-A773-0EF1CE7FD80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88280BB6-7843-4761-A773-0EF1CE7FD80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8E5A20-346A-408B-A1B5-08A71C5E9820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8E5A20-346A-408B-A1B5-08A71C5E9820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8E5A20-346A-408B-A1B5-08A71C5E9820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8E5A20-346A-408B-A1B5-08A71C5E9820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5800C5-6D7D-4D09-A7F9-6AAB142B4F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5800C5-6D7D-4D09-A7F9-6AAB142B4F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5800C5-6D7D-4D09-A7F9-6AAB142B4F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5800C5-6D7D-4D09-A7F9-6AAB142B4F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33729C54-7634-4F53-B8EF-716D501DDF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33729C54-7634-4F53-B8EF-716D501DDF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33729C54-7634-4F53-B8EF-716D501DDF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33729C54-7634-4F53-B8EF-716D501DDF1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
