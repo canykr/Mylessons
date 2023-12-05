@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_ForeachDongusu", "12_For
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_DiziMetotlari", "13_DiziMetotlari\13_DiziMetotlari.csproj", "{F7FECFEA-4936-48ED-8A03-83BD2ADA1D19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_MethodKavrami", "14_MethodKavrami\14_MethodKavrami.csproj", "{DF8AD633-1D63-43A6-856F-A7109A4E4F24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_MethodKavrami", "14_MethodKavrami\14_MethodKavrami.csproj", "{DF8AD633-1D63-43A6-856F-A7109A4E4F24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_StringMethodlari", "15_StringMethodlari\15_StringMethodlari.csproj", "{44514B52-4B6A-4A59-AB3F-7EEBA4B75BBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_StringMethodlari", "15_StringMethodlari\15_StringMethodlari.csproj", "{44514B52-4B6A-4A59-AB3F-7EEBA4B75BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odev10", "Odev10\Odev10.csproj", "{93E95D9D-81F2-439D-850C-5178E880D872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{44514B52-4B6A-4A59-AB3F-7EEBA4B75BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44514B52-4B6A-4A59-AB3F-7EEBA4B75BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44514B52-4B6A-4A59-AB3F-7EEBA4B75BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E95D9D-81F2-439D-850C-5178E880D872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E95D9D-81F2-439D-850C-5178E880D872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E95D9D-81F2-439D-850C-5178E880D872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E95D9D-81F2-439D-850C-5178E880D872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
