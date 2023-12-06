@@ -47,16 +47,16 @@ namespace Odev10
                 #endregion
                 #region Soru4
 
-                //Console.WriteLine("***************************************");
-                //Console.WriteLine("Soru 4: ");
-                //Console.Write("Girdi : ");
-                //string metin = Console.ReadLine();
+                Console.WriteLine("***************************************");
+                Console.WriteLine("Soru 4: ");
+                Console.Write("Girdi : ");
+                string metin = Console.ReadLine();
 
-                //string harfSonuc = AyirHarfVeSayi(metin, true);
-                //string sayiSonuc = AyirHarfVeSayi(metin, false);
+                string harfSonuc = AyirHarfVeSayi(metin, true);
+                string sayiSonuc = AyirHarfVeSayi(metin, false);
 
-                //Console.WriteLine("Çıktı = Harfler = " + harfSonuc);
-                //Console.WriteLine("Çıktı = Sayılar = " + sayiSonuc);
+                Console.WriteLine("Çıktı = Harfler = " + harfSonuc);
+                Console.WriteLine("Çıktı = Sayılar = " + sayiSonuc);
                 #endregion
                 #region Soru5
                 //Console.WriteLine("***************************************");
