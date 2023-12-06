@@ -33,9 +33,6 @@
 
                 EnUzunElemaniBulVeYazdir(dizi);
 
-                #endregion
-                #region Soru3
-
                 Console.WriteLine("***************************************");
                 Console.WriteLine("Soru 3: ");
                 Console.WriteLine("***************************************");
