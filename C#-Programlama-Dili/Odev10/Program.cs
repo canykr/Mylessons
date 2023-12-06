@@ -8,7 +8,7 @@ namespace Odev10
         static void Main(string[] args)
         {
             {
-
+                // 7. Ödevin içeriği metod kısmında
 
                 #region Soru1
                 Console.WriteLine("***************************************");
