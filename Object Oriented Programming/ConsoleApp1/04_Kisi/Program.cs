@@ -2,16 +2,24 @@
 
 namespace _04_Kisi
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.Write("Lütfen karenin kenar uzunluğunu giriniz: ");
-            double kenar = double.Parse(Console.ReadLine());
+    //internal class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        Console.Write("Lütfen karenin kenar uzunluğunu giriniz: ");
+    //        double kenar = double.Parse(Console.ReadLine());
 
-            Kare kare = new Kare(kenar);
+    //        Kare kare = new Kare(kenar);
 
-            Console.WriteLine("Karenin Alanı: " + kare.AlanHesapla());
-        }
-    }
+    //        Console.WriteLine("Karenin Alanı: " + kare.AlanHesapla());
+    //    }
+
+    
+     
+
+
+
+
+
+    
 }

@@ -7,11 +7,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-ConsoleApp", "ConsoleApp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_ClassLibrary", "02_ClassLibrary\02_ClassLibrary.csproj", "{C6CBB813-AAA1-43D9-A1DA-603810745B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ClassLibrary1", "03_ClassLibrary1\03_ClassLibrary1.csproj", "{866FB29C-539E-4041-8894-782940F207D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_ClassLibrary1", "03_ClassLibrary1\03_ClassLibrary1.csproj", "{866FB29C-539E-4041-8894-782940F207D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{9D0D0ECC-9CC6-40A3-ABE2-61B030A78759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{9D0D0ECC-9CC6-40A3-ABE2-61B030A78759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Kisi", "04_Kisi\04_Kisi.csproj", "{9D995F10-02A8-4BEE-ADFE-A5AA8F7F3A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04_Kisi", "04_Kisi\04_Kisi.csproj", "{9D995F10-02A8-4BEE-ADFE-A5AA8F7F3A16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders08122023", "Ders08122023\Ders08122023.csproj", "{AF49E6FA-66EE-4B02-82F1-AE81E3FA1989}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelefonOrnegi", "TelefonOrnegi\TelefonOrnegi.csproj", "{23ED5294-4A46-469F-8FDC-9DACFF36CF73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05-SealedClassKullanimi", "05-SealedClassKullanimi\05-SealedClassKullanimi.csproj", "{99D8A3CA-6702-4FFB-BC4F-66C44CE76852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalisanÖdev", "CalisanÖdev\CalisanÖdev.csproj", "{E817FC16-7BF8-4585-9DCE-A664AE3C4D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-AbstractClassVeMethods", "06-AbstractClassVeMethods\06-AbstractClassVeMethods.csproj", "{5CF916C7-3EEE-4351-8FF3-94A02806EA8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +49,26 @@ Global
 		{9D995F10-02A8-4BEE-ADFE-A5AA8F7F3A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D995F10-02A8-4BEE-ADFE-A5AA8F7F3A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D995F10-02A8-4BEE-ADFE-A5AA8F7F3A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF49E6FA-66EE-4B02-82F1-AE81E3FA1989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF49E6FA-66EE-4B02-82F1-AE81E3FA1989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF49E6FA-66EE-4B02-82F1-AE81E3FA1989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF49E6FA-66EE-4B02-82F1-AE81E3FA1989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23ED5294-4A46-469F-8FDC-9DACFF36CF73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23ED5294-4A46-469F-8FDC-9DACFF36CF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23ED5294-4A46-469F-8FDC-9DACFF36CF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23ED5294-4A46-469F-8FDC-9DACFF36CF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D8A3CA-6702-4FFB-BC4F-66C44CE76852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D8A3CA-6702-4FFB-BC4F-66C44CE76852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D8A3CA-6702-4FFB-BC4F-66C44CE76852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D8A3CA-6702-4FFB-BC4F-66C44CE76852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E817FC16-7BF8-4585-9DCE-A664AE3C4D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E817FC16-7BF8-4585-9DCE-A664AE3C4D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E817FC16-7BF8-4585-9DCE-A664AE3C4D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E817FC16-7BF8-4585-9DCE-A664AE3C4D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF916C7-3EEE-4351-8FF3-94A02806EA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF916C7-3EEE-4351-8FF3-94A02806EA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF916C7-3EEE-4351-8FF3-94A02806EA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF916C7-3EEE-4351-8FF3-94A02806EA8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
