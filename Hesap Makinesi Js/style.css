@@ -1,0 +1,25 @@
+.calculator {
+    max-width: 300px;
+    margin: 50px auto;
+  }
+  
+  input {
+    grid-column: span 4;
+    width: calc(100% - 10px);
+    margin-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 1px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .esittir{
+  
+   width: 75px;
+   height: 50px;
+  }

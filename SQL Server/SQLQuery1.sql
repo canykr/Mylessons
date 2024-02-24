@@ -1,100 +1,204 @@
-SELECT*FROM dbo.Categories
--- dbo.Categories tablosundaki tüm kolonlarý ve satýrlarý listeler
+ï»¿SELECT*
+FROM dbo.Categories
+-- dbo.Categories tablosundaki tï¿½m kolonlarï¿½ ve satï¿½rlarï¿½ listeler
 
-select CategoryID,CategoryName from dbo.Categories
---dbo.Categories tablosundaki CategoryID, CategoryName kolonlarýna ait tüm satýrlarý listeler
+select CategoryID, CategoryName
+from dbo.Categories
+--dbo.Categories tablosundaki CategoryID, CategoryName kolonlarï¿½na ait tï¿½m satï¿½rlarï¿½ listeler
 
-select [CustomerID],[ShipCountry] from [dbo].[Orders]
+select [CustomerID], [ShipCountry]
+from [dbo].[Orders]
 
---select [Adý Soyadý], adres from dbo.[müþteri tablosu]
+--select [Adï¿½ Soyadï¿½], adres from dbo.[mï¿½ï¿½teri tablosu]
 
-select * from Northwind2.dbo.Employees
-select*from [Northwind2].[dbo].[Employees]
-  
-select FirstName as [Adý], LastName as [Soyadý ..] from dbo.Employees
+select *
+from Northwind2.dbo.Employees
+select*
+from [Northwind2].[dbo].[Employees]
 
---TOP komutu ile istediðimiz sayýdaki ilk kayýtlarý getirebiliriz.
-select top 3* from dbo.Employees
-select top 3 FirstName,LastName from dbo.Employees
-SELECT TOP(3) * from dbo.Employees
+select FirstName as [Adï¿½], LastName as [Soyadï¿½ ..]
+from dbo.Employees
 
--- select cümlesindeki tabloya as keyword'ü ile kýsa takma adlar verilebilir.
-select c.CompanyName, c.Country from dbo.Customers as c
+--TOP komutu ile istediï¿½imiz sayï¿½daki ilk kayï¿½tlarï¿½ getirebiliriz.
+select top 3
+    *
+from dbo.Employees
+select top 3
+    FirstName, LastName
+from dbo.Employees
+SELECT TOP(3)
+    *
+from dbo.Employees
 
--- distinc komutu ile yinelenen satýrlarý kaldýrarak liste alabiliriz.
-select distinct Country from dbo.Customers
+-- select cï¿½mlesindeki tabloya as keyword'ï¿½ ile kï¿½sa takma adlar verilebilir.
+select c.CompanyName, c.Country
+from dbo.Customers as c
 
---where keyword'ü ile tablo içindeki verilerde filtreleme yapabiliriz
---ülkesi Germany olan tüm müþterileri listeler
-select * from dbo.Customers where Country='Germany'
-select * from dbo.Categories where CategoryID =5
-select * from dbo.Categories where CategoryID = '5'
+-- distinc komutu ile yinelenen satï¿½rlarï¿½ kaldï¿½rarak liste alabiliriz.
+select distinct Country
+from dbo.Customers
 
---ülkesi Germany olmayan tüm müþterileri listeler
-select * from dbo.Customers where Country<>'Germany'
-select * from dbo.Categories where CategoryID<>5
+--where keyword'ï¿½ ile tablo iï¿½indeki verilerde filtreleme yapabiliriz
+--ï¿½lkesi Germany olan tï¿½m mï¿½ï¿½terileri listeler
+select *
+from dbo.Customers
+where Country='Germany'
+select *
+from dbo.Categories
+where CategoryID =5
+select *
+from dbo.Categories
+where CategoryID = '5'
 
-select * from dbo.Customers where Country='Germany' and Country='France'
-select * from dbo.Customers where Country='Germany' or Country='France'
-select * from dbo.Customers where Country='Mexico' and City='Mexico D.F.'
+--ï¿½lkesi Germany olmayan tï¿½m mï¿½ï¿½terileri listeler
+select *
+from dbo.Customers
+where Country<>'Germany'
+select *
+from dbo.Categories
+where CategoryID<>5
 
-select * from dbo.Customers where Country='Mexico' and City='Mexico D.F.'and (PostalCode='05021' or PostalCode='05022')
+select *
+from dbo.Customers
+where Country='Germany' and Country='France'
+select *
+from dbo.Customers
+where Country='Germany' or Country='France'
+select *
+from dbo.Customers
+where Country='Mexico' and City='Mexico D.F.'
 
---Region kolonu NULL olan kayýtlarý listeler
-select * from dbo.Customers where Region is null
+select *
+from dbo.Customers
+where Country='Mexico' and City='Mexico D.F.'and (PostalCode='05021' or PostalCode='05022')
 
---Region kolonu NULL olmayyan kolonlarý listeler
-select * from dbo.Customers where Region is not null
+--Region kolonu NULL olan kayï¿½tlarï¿½ listeler
+select *
+from dbo.Customers
+where Region is null
 
-select * from dbo.Customers where Region is null or Region=''
+--Region kolonu NULL olmayyan kolonlarï¿½ listeler
+select *
+from dbo.Customers
+where Region is not null
 
-select * from dbo.OrderDetails where UnitPrice > 50
-select * from dbo.OrderDetails where UnitPrice < 50
-select * from dbo.OrderDetails where UnitPrice >= 50
-select * from dbo.OrderDetails where UnitPrice <= 50
-select * from dbo.OrderDetails where UnitPrice > 50 and UnitPrice<60
+select *
+from dbo.Customers
+where Region is null or Region=''
 
---Sipariþ detaylarýnda indirim yapllan kayýtlarý listeleyeyn sql cümlecigini yaz.
-select * from OrderDetails where Discount>0
+select *
+from dbo.OrderDetails
+where UnitPrice > 50
+select *
+from dbo.OrderDetails
+where UnitPrice < 50
+select *
+from dbo.OrderDetails
+where UnitPrice >= 50
+select *
+from dbo.OrderDetails
+where UnitPrice <= 50
+select *
+from dbo.OrderDetails
+where UnitPrice > 50 and UnitPrice<60
 
-select * from dbo.Employees where BirthDate is null
-select * from dbo.Employees where BirthDate is not null
-select * from dbo.Employees where BirthDate = '19520219'
-select * from dbo.Employees where BirthDate > '19520219'
-select * from dbo.Employees where BirthDate > '1955-03-04 00:00:00.000'
-select * from dbo.Employees where BirthDate > '1955-03-04'
-select * from dbo.Employees where BirthDate > '01.30.1955' --ay-gün-yýl þeklinde yazýlýrsa kabul eder.
+--Sipariï¿½ detaylarï¿½nda indirim yapllan kayï¿½tlarï¿½ listeleyeyn sql cï¿½mlecigini yaz.
+select *
+from OrderDetails
+where Discount>0
 
---like (x) ile biten,(x) ile baþlayan içinde (x) geçen gibi filtreler uygulamak için kullanýlýr.
-select * from Employees where [Address] like '7%' -- 7 ile baþlayan kayýtlarý listeler.
-select * from Employees where [Address] like '%d.'-- d. ile biten kayýtlarý listeler.
-select * from Employees where [Address] like '%Ave%' -- içinde Ave kelimesi geçen kayýtlarý listeler.
-select * from Employees where [Address] like '%e%'-- içinde e harfi geçen kayýtlarý listeler.
+select *
+from dbo.Employees
+where BirthDate is null
+select *
+from dbo.Employees
+where BirthDate is not null
+select *
+from dbo.Employees
+where BirthDate = '19520219'
+select *
+from dbo.Employees
+where BirthDate > '19520219'
+select *
+from dbo.Employees
+where BirthDate > '1955-03-04 00:00:00.000'
+select *
+from dbo.Employees
+where BirthDate > '1955-03-04'
+select *
+from dbo.Employees
+where BirthDate > '01.30.1955'
+--ay-gï¿½n-yï¿½l ï¿½eklinde yazï¿½lï¿½rsa kabul eder.
+
+--like (x) ile biten,(x) ile baï¿½layan iï¿½inde (x) geï¿½en gibi filtreler uygulamak iï¿½in kullanï¿½lï¿½r.
+select *
+from Employees
+where [Address] like '7%'
+-- 7 ile baï¿½layan kayï¿½tlarï¿½ listeler.
+select *
+from Employees
+where [Address] like '%d.'-- d. ile biten kayï¿½tlarï¿½ listeler.
+select *
+from Employees
+where [Address] like '%Ave%'
+-- iï¿½inde Ave kelimesi geï¿½en kayï¿½tlarï¿½ listeler.
+select *
+from Employees
+where [Address] like '%e%'-- iï¿½inde e harfi geï¿½en kayï¿½tlarï¿½ listeler.
 
 
 --
-select * from dbo.Customers where Country='Germany' or Country = 'France'
--- in komutu ile deðeri içeren kayýtlarý listeler.
-select * from dbo.Customers where Country in ('Germany','France')
-select * from dbo.OrderDetails where Quantity in (4,8)
+select *
+from dbo.Customers
+where Country='Germany' or Country = 'France'
+-- in komutu ile deï¿½eri iï¿½eren kayï¿½tlarï¿½ listeler.
+select *
+from dbo.Customers
+where Country in ('Germany','France')
+select *
+from dbo.OrderDetails
+where Quantity in (4,8)
 
---between komutu iki deðer arasýndaki kayýtlarý listeler
-select * from dbo.OrderDetails where Quantity>=4 and Quantity<=10
-select * from dbo.OrderDetails where Quantity between 4 and 10
+--between komutu iki deï¿½er arasï¿½ndaki kayï¿½tlarï¿½ listeler
+select *
+from dbo.OrderDetails
+where Quantity>=4 and Quantity<=10
+select *
+from dbo.OrderDetails
+where Quantity between 4 and 10
 
-select ProductName as [Ürün Adý], (UnitPrice * UnitsInStock) as [Tutar] from dbo.Products
-select FirstName,LastName,FirstName + ' '+ LastName from dbo.Employees
-select FirstName,LastName,FirstName + 5 as [Adý Soyadý] from dbo.Employees --artý operatörü eðer sol ve saðda ayný tipte veri yoksa hata verir.
+select ProductName as [ï¿½rï¿½n Adï¿½], (UnitPrice * UnitsInStock) as [Tutar]
+from dbo.Products
+select FirstName, LastName, FirstName + ' '+ LastName
+from dbo.Employees
+select FirstName, LastName, FirstName + 5 as [Adï¿½ Soyadï¿½]
+from dbo.Employees
+--artï¿½ operatï¿½rï¿½ eï¿½er sol ve saï¿½da aynï¿½ tipte veri yoksa hata verir.
 
-select * from dbo.Customers order by CompanyName
-select * from dbo.Customers order by CompanyName asc
-select * from dbo.Customers order by CompanyName desc
+select *
+from dbo.Customers
+order by CompanyName
+select *
+from dbo.Customers
+order by CompanyName asc
+select *
+from dbo.Customers
+order by CompanyName desc
 
-select * from dbo.Customers where Country='Germany' order by CompanyName
-select * from dbo.Customers where Country='Germany' order by CompanyName,ContactName
-select * from dbo.Customers order by Country,City desc
+select *
+from dbo.Customers
+where Country='Germany'
+order by CompanyName
+select *
+from dbo.Customers
+where Country='Germany'
+order by CompanyName,ContactName
+select *
+from dbo.Customers
+order by Country,City desc
 
---sipariþin ürün ýdsi,ürüm birim fiyatý,miktarý ve tutarý alanlarýný bana dönen sql cümlecigini yazýnýz.
--- select ProductID as [Ürün Kodu], UnitPrice as [Birim Fiyat], Quantity as [Miktar], Unitprice * Quantity as [Tutar] from bdo.OrderDetails order by (UnitPrice * Quantity)desc 
+--sipariï¿½in ï¿½rï¿½n ï¿½dsi,ï¿½rï¿½m birim fiyatï¿½,miktarï¿½ ve tutarï¿½ alanlarï¿½nï¿½ bana dï¿½nen sql cï¿½mlecigini yazï¿½nï¿½z.
+-- select ProductID as [ï¿½rï¿½n Kodu], UnitPrice as [Birim Fiyat], Quantity as [Miktar], Unitprice * Quantity as [Tutar] from bdo.OrderDetails order by (UnitPrice * Quantity)desc 
 
-SELECT ProductID, ProductName, UnitPrice, UnitsInStock, (UnitPrice * UnitsInStock) AS TotalValue FROM Products;
+SELECT ProductID, ProductName, UnitPrice, UnitsInStock, (UnitPrice * UnitsInStock) AS TotalValue
+FROM Products;
